@@ -1,0 +1,20 @@
+This a simple implementation of a calculator.
+
+We are going to use the Strategy pattern, to change behavior of the algorithm used to calculate results based on a chosen operator
+
+The strategy pattern works here because we want to give the user a choice between
+different kinds of operations depending on the operator used.
+
+A different "strategy" is used depending what the user chooses.
+
+The Operation interface defines what we want to.
+
+The Concrete classes (different types of operations) implements the interface.
+
+The UseOperation class allows us to use the different strategies
+
+
+Anticase:
+
+If we just want to do the same calculation on runtime, we would not need this pattern.
+
